@@ -1,0 +1,82 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: black;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .header ul li {
+    margin-right: 20px;
+    color: white;
+  }
+
+  .logo {
+    color: white;
+  }
+
+  .cart {
+    color: white;
+    ;
+  }
+
+  .cookie-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(260deg, #9bc650 0%, #4f2626 100%);
+    color: white;
+    display: flex;
+    width: 25rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Fira Code', "sans-serif";
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cookie {
+    padding-right: 1.5rem;
+    transform: scale(1.5);
+    padding-left: 1rem;
+
+  }
+
+  .cookie-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    overflow: hidden;
+  }
+
+  .cookie-subtitle {
+    font-size: 1.0rem;
+    font-weight: 400;
+  }
+
+  .cookie-button {
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: #4f2626;
+    font-family: 'Fira Code', "sans-serif";
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+  }
