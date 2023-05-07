@@ -1,0 +1,311 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', "sans-serif";
+
+  }
+
+  .header {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .header ul li {
+    margin-right: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    color: white;
+  }
+
+  .cart {
+    color: white;
+
+  }
+
+  .cookie-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(260deg, #9bc650 0%, #4f2626 100%);
+    color: white;
+    display: flex;
+    width: 25rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Fira Code', "sans-serif";
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cookie {
+    padding-right: 1.5rem;
+    transform: scale(1.5);
+    padding-left: 1rem;
+
+  }
+
+  .cookie-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    overflow: hidden;
+  }
+
+  .cookie-subtitle {
+    font-size: 1.0rem;
+    font-weight: 400;
+  }
+
+  .cookie-button {
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: #4f2626;
+    font-family: 'Fira Code', "sans-serif";
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+  }
+
+  .slideshow {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+
+  }
+
+  .left {
+    margin-top: 0px;
+    bottom: 0;
+    width: 50%;
+    background-color: transparent;
+
+  }
+
+  .right {
+    margin-top: 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: transparent;
+  }
+
+  .imgslide {
+    max-width: 700px;
+    object-fit: cover;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .slideshowmain {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: linear-gradient(260deg, #8e1717 0%, #242424 100%);
+    display: flex;
+    border-radius: 1.2rem;
+    height: 750px;
+    font-family: 'Fira Code', "sans-serif";
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slideshowTitle {
+    padding-top: 20%;
+    padding-left: 10%;
+    color: white;
+    max-width: 500px;
+    object-fit: cover;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .slideshowSubTitle {
+    padding-top: 20px;
+    padding-left: 10%;
+    text-align: left;
+    color: white;
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .slideshowButton {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    transition-duration: 500ms;
+    border: none;
+    text-transform: capitalize;
+    display: flex;
+    padding: 15px;
+    padding-left: 30px;
+  }
+
+  .slideshowButton:hover {
+    transform: scale(1.1);
+  }
+
+  .collection-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+  }
+
+  .collectionImageImage {
+    max-width: 300px;
+    text-align: center;
+
+  }
+
+  .card-wrapper {
+    background-color: #F6F6F6;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    box-sizing: border-box;
+    border: 5px solid transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+
+  .cardTitle {
+    padding-left: 10%;
+    color: black;
+    max-width: 500px;
+    object-fit: cover;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+
+  }
+
+  .cardSubTitle {
+    padding-top: 10px;
+    padding-left: 10%;
+    text-align: center;
+    color: black;
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+  }
+
+
+
+  .collectionTitle {
+    padding-top: 50px;
+    padding-left: 3%;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .collectionGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .collectionGridItem1 {
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    margin: 5px;
+    transition-duration: 500ms;
+  }
+
+  .collectionGridItem1:hover {
+    opacity: 0.8;
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    margin: 5px;
+  }
+
+  .collectionGridItem2 {
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    margin: 5px;
+    transition-duration: 500ms;
+  }
+
+  .collectionGridItem2:hover {
+    opacity: 0.8;
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    margin: 5px;
+  }
+
+  .collectionGridItem3 {
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    margin: 5px;
+    transition-duration: 500ms;
+  }
+
+  .collectionGridItem3:hover {
+    opacity: 0.8;
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    margin: 5px;
+  }
+
+  .collectionGridItemImage {
+    max-width: 450px;
+  }
+
+  .collectionGridTitle {
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+  }
+
+  .hrdiv {
+    color: black;
+  }
