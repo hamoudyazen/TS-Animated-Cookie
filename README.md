@@ -6,3 +6,5 @@ To run the project, make sure to first install the GSAP animation library by run
 Copy code
 npm install gsap
 This will install GSAP as a dependency in your project and allow you to run the animated cookie project without any issues.
+//////////////////
+This is a onepage basic ecommerce that showcase a slideshow , cookie , products and a product grid . the focus was on the Gasp animation using typescript and css.
